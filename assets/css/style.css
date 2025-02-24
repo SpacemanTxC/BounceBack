@@ -1,0 +1,93 @@
+/* removed list item dots */
+html, body{
+    margin: 0;
+    height:100%;
+}
+ul {
+    list-style-type: none;
+  }
+  
+  /* text style */
+  div {
+    font-family: "Rockwell";
+  }
+  
+  /* banner image */
+  .image1 {
+    max-height: 3000px;
+    /* max-width: 100%; */
+    width: 100%;
+  }
+  
+  /* added background color */
+  .background {
+    background-color: #ffffff;
+  }
+  
+  /* makes the text responsive */
+  .sports_id {
+    font-size: 3vw;
+  }
+  
+  /* changes the jobs section text to a different view when largers */
+  @media screen and (min-width:1000px) {
+    .sports_id {
+      font-size: 1vw;
+    }
+  }
+  
+  /* makes the container black with white letters
+      also makes it alittle transparent*/
+  .jumbotron, .card, .navbar {
+    background-color: #1f63c5;
+    opacity: 1;
+    color: #F0F8FF;
+    border-color: #F0FFFF;
+  }
+  
+  /* color for unvisited link color azure */
+  a:link {
+    color: #F0FFFF;
+  }
+  
+  /* visited link white */
+  a:visited {
+    color: #F8F8FF;
+  }
+  
+  /* mouse over link grey */
+  a:hover {
+    color: #808080;
+  }
+  
+  /* active  */
+  a:active {
+    color: #e88b00;
+  }
+  
+  /* used to highlight orange */
+  .active.active {
+    background-color: #e88b00;
+    border-color: #F0F8FF;
+  }
+  
+  /* fixes green link in nav bar */
+  .nav-link {
+    background-color: #F0F8FF;
+  }
+  
+  /* fixes text color in work experience */
+  #list-teacher, #list-research, #list-tutor, #list-trainer {
+    background-color: #e88b00;
+    text-align: auto;
+  }
+  
+  /* changes color of project links */
+  a.extraColor {
+    color: #e88b00;
+  }
+  
+  /* color when link pushed */
+  .list-group-item {
+    background: #e88b00;
+  }
